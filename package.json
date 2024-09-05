@@ -1,0 +1,26 @@
+{
+  "name": "ninja-loader",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/AayushtheCoder01/spinny-loader.git"
+  },
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A library for using dates and time hassel free.",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.21.2",
+    "tslib": "^2.7.0"
+  }
+}
