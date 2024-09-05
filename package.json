@@ -1,6 +1,6 @@
 {
-  "name": "ninja-loader",
-  "version": "0.0.1",
+  "name": "spinny-loader",
+  "version": "0.0.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "A library for using dates and time hassel free.",
+  "description": "A library for react loading animation",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.5",

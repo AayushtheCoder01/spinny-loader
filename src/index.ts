@@ -1,1 +1,4 @@
-export * from "./components/SimpleLoader";
+import SimpleLoader from "./components/SimpleLoader";
+export {
+    SimpleLoader
+}
