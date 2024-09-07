@@ -1,4 +1,6 @@
-import SimpleLoader from "./components/SimpleLoader";
+import SimpleLoader from "./components/circle/SimpleLoader";
+import PulseSphere from "./components/circle/PulseSphere";
 export {
-    SimpleLoader
+    SimpleLoader,
+    PulseSphere
 }
