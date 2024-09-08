@@ -1,6 +1,6 @@
+
 import React from 'react'
 import { motion } from 'framer-motion'
-import "./simple.css"
 
 export type SimpleLoaderProps = {
   size?: string
@@ -9,8 +9,7 @@ const SimpleLoader = ({ size="35px" } : SimpleLoaderProps) => {
   return (
     <>
     <motion.div 
-      style={{height: size, width: size} as React.CSSProperties}
-      className="simple-loader"
+      style={{height: size, width: size, borderRadius: "100%", backgroundColor: "transparent", border: "7px solid rgba(0, 0, 0, 0.193)",  borderTop: "7px solid #3498db"} as React.CSSProperties}
       initial={{
          scale: 1,
          x: 0,
@@ -30,7 +29,7 @@ const SimpleLoader = ({ size="35px" } : SimpleLoaderProps) => {
             repeatDelay: 0
           }
         }
-    />    
+    />       
       </>
   )
 }

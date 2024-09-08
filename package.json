@@ -1,6 +1,6 @@
 {
   "name": "spinny-loader",
-  "version": "0.0.11",
+  "version": "0.0.24",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -8,6 +8,7 @@
     "type": "github",
     "url": "https://github.com/AayushtheCoder01/spinny-loader.git"
   },
+  "files": ["dist/**/*"],
   "scripts": {
     "build": "npx rollup -c"
   },

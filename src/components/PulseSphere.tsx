@@ -6,7 +6,7 @@ export type PulseSphereProps = {
     color?: string,
     fillcolor?: string
 }
-const PulseSphere = ({size = "30px", color="#1c64f2", fillcolor="transparent"}: PulseSphereProps) => {
+export const PulseSphere = ({size = "30px", color="#1c64f2", fillcolor="transparent"}: PulseSphereProps) => {
 
     return (
       <>
@@ -36,4 +36,3 @@ const PulseSphere = ({size = "30px", color="#1c64f2", fillcolor="transparent"}: 
     )
 }
 
-export default PulseSphere

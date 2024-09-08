@@ -1,6 +1,8 @@
-import SimpleLoader from "./components/circle/SimpleLoader";
-import PulseSphere from "./components/circle/PulseSphere";
+import SimpleLoader from "./components/SimpleLoader";
+import { PulseSphere } from "./components/PulseSphere";
+import { WaveFlow } from "./components/WaveFlow";
 export {
+    PulseSphere,
     SimpleLoader,
-    PulseSphere
+    WaveFlow
 }
