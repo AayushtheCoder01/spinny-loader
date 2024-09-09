@@ -1,9 +1,9 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-export type WaveFlowProps = {
+export type WavyBarsProps = {
     color?: string,
 }
-export const WaveFlow = ({color = "#1c64f2"}: WaveFlowProps) => {
+export const WavyBars = ({color = "#1c64f2"}: WavyBarsProps) => {
   return (
     <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
 
@@ -30,7 +30,7 @@ export const WaveFlow = ({color = "#1c64f2"}: WaveFlowProps) => {
         }
         />    
     <motion.div 
-      style={{height: "5px",margin: "2px", width: "5px", backgroundColor: "#1c64f2", borderRadius:  '20px 20px  20px 20px'} as React.CSSProperties}
+      style={{height: "5px",margin: "2px", width: "5px", backgroundColor: color, borderRadius:  '20px 20px  20px 20px'} as React.CSSProperties}
       initial={{
         scale: 1,
         x: 0,
@@ -52,7 +52,7 @@ export const WaveFlow = ({color = "#1c64f2"}: WaveFlowProps) => {
         }
         />    
     <motion.div 
-      style={{height: "5px",margin: "2px", width: "5px", backgroundColor: "#1c64f2", borderRadius:  '20px 20px  20px 20px'} as React.CSSProperties}
+      style={{height: "5px",margin: "2px", width: "5px", backgroundColor: color, borderRadius:  '20px 20px  20px 20px'} as React.CSSProperties}
       initial={{
         scale: 1,
         x: 0,
@@ -73,9 +73,6 @@ export const WaveFlow = ({color = "#1c64f2"}: WaveFlowProps) => {
           }
         }
         />    
-   
-    {/* <SimpleLoader/> */}
-    {/* <PulseSphere /> */}
         </div>
   )
 }

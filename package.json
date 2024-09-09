@@ -1,6 +1,6 @@
 {
   "name": "spinny-loader",
-  "version": "0.0.24",
+  "version": "0.1.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -8,14 +8,34 @@
     "type": "github",
     "url": "https://github.com/AayushtheCoder01/spinny-loader.git"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "npx rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "spinny-loader",
+    "react",
+    "loading",
+    "loading components",
+    "animated loading",
+    "loader",
+    "animation",
+    "loading spinner",
+    "framer-motion",
+    "react loader",
+    "spinner",
+    "loading animation",
+    "animated loader",
+    "pulsing loader",
+    "motion",
+    "react component",
+    "frontend"
+  ],
+  "author": "Aayush Kumar",
   "license": "ISC",
-  "description": "A library for react loading animation",
+  "description": "'Spinny Loader' is a lightweight React library for animated loading components. It offers smooth, customizable loaders to enhance user experience while content is loading.",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.5",
