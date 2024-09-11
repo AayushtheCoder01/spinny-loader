@@ -4,7 +4,10 @@ import postcss from 'rollup-plugin-postcss';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 export default defineConfig({
-  input: 'src/index.ts', // Replace with your entry file
+  input: {
+    index: 'src/index.ts', // main entry point
+    wrapper: 'src/wrapper/wrapper.ts', // new wrapper entry point
+  }, // Replace with your entry file
   output: [
     {
       dir: 'dist',
