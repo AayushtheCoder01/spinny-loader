@@ -13,6 +13,7 @@ export const PulseSphere = ({size = "30px", color="#1c64f2", fillcolor="transpar
       <motion.div 
         style={
           {
+            padding: "5px",
             height: size,
             width: size,
             border: `3px solid ${color}`,

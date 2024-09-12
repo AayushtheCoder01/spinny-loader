@@ -8,6 +8,9 @@ export type SimpleLoaderProps = {
 const SimpleLoader = ({ size="35px" } : SimpleLoaderProps) => {
   return (
     <>
+    <div style={{padding: "5px", width: 'auto', height: 'auto'}}>
+
+    </div>
     <motion.div 
       style={{height: size, width: size, borderRadius: "100%", backgroundColor: "transparent", border: "7px solid rgba(0, 0, 0, 0.193)",  borderTop: "7px solid #3498db"} as React.CSSProperties}
       initial={{

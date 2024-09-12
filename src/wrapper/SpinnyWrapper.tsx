@@ -4,7 +4,7 @@ export type SpinnyWrapperProps = {
   children?: React.ReactNode,
   backgroundEffect?: boolean
 }
-const SpinnyWrapper = ({children = "<div>Loading...</div>", backgroundEffect = false} : SpinnyWrapperProps) => {
+const SpinnyWrapper = ({children = "<div>Loading...</div>", backgroundEffect = true} : SpinnyWrapperProps) => {
   return (
     <div
       style={{

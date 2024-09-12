@@ -7,7 +7,7 @@ export type WavyPulsesProps = {
 }
 export const WavyPulses= ({color = "#1c64f2", size = "5px"}) => {
   return (
-    <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+    <div style={{padding: "5px", width: 'auto', height: 'auto', display: "flex", justifyContent: "center", alignItems: "center"}}>
       
     <motion.div 
       style={{height: size,margin: "3px", width: size, backgroundColor: color, borderRadius:  '20px 20px  20px 20px'} as React.CSSProperties}

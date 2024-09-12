@@ -5,7 +5,7 @@ export type WavyBarsProps = {
 }
 export const WavyBars = ({color = "#1c64f2"}: WavyBarsProps) => {
   return (
-    <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+    <div style={{padding: "5px", width: 'auto', height: 'auto', display: "flex", justifyContent: "center", alignItems: "center"}}>
 
     <motion.div 
       style={{height: "5px",margin: "2px", width: "5px", backgroundColor: color, borderRadius:  '20px 20px  20px 20px'} as React.CSSProperties}

@@ -18,10 +18,13 @@ import { PulseSphere,SimpleLoader, WavyBars, WavyPulses} from 'spinny-loader'
 function App() {
   return (
     <>
-        <PulseSphere size={"30px"} color={"blue"} fillcolor='transparent'/>
-        <SimpleLoader size={"25px"}/>
-        <WavyBars color={"orange"}/>
-        <WavyPulses size='7px' color={"lightgreen"}/>
+        <PulseSphere />
+          <SimpleLoader size={"25px"}/>
+          <WavyBars color={"orange"}/>
+          <WavyPulses size='7px' color={"lightgreen"}/>
+          <RotatingRing size='25px' color={"#1c64f2"} lineWidth='3px' speed={.7}/>
+          <ScalingPulses size='9px' color={"#1c64f2"} speed={.7}/>
+          <ButterflyWave width='5px' color={"#1c64f2"} speed={.6}/>
     </>
   )
 }
@@ -36,6 +39,18 @@ export default App
 <PulseSphere/> // excepts props - size, color, fillcolor
 <WavyBars/> // excepts props - color
 <WavyPulses/> // excepts props - size, color
+```
+
+### Wrapper Component
+
+This components takes other loading components as children and align the loading component to the center of the page aslo it blurs the background by default to enhance the overall view of the page.
+
+Recomended to use while loading the Dashboard, Login and Signup.
+
+```js
+<SpinnyWrapper backgroundEffect={true}> // background effect by default true.
+  <WavyPulses size='7px' color={"lightgreen"}/>
+</SpinnyWrapper>
 ```
 
 ### License
